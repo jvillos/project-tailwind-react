@@ -1,34 +1,63 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Button from "./components/Button";
+import Input from "./components/Input"
+import Card from "./components/Card"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import logoSource from "./img/logo.png";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const handleClick = (text: string) => {
+    console.log("Click" + text);
+  };
 
   return (
-    <>
+    <div className="bg-gray-200 flex flex-col items-center p-4 ">
+      <Header logoSource={logoSource} />
+      <h1 className="text-3xl">Biblioteca de componentes</h1>
+      <div className="flex justify-center space-x-4 mt-4">
+        <Button text="Click Me!!!!" onClick={handleClick} />
+      </div>
+      <div className="flex justify-center mt-4 gap-4">
+        <Input
+          label="Email"
+          placeholder="Email"
+          type="email"
+          onChange={(value) => {
+            console.log(value);
+          }}
+          errorMessage="Error en el email"
+          hasError={true}
+        />
+
+        <Input
+          label="Name"
+          placeholder="enter your name"
+          type="text"
+          onChange={(value) => {
+            console.log(value);
+          }}
+        />
+
+        <Input
+          label="Padssword"
+          placeholder="enter your password"
+          type="password"
+          onChange={(value) => {
+            console.log(value);
+          }}
+          isDisabled={true}
+        />
+      </div>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Card
+          imageSource="https://picsum.photos/200/300"
+          title="Perico el de los palotes"
+          description="Descripcion de la card"
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <Footer />
+    </div>
   )
 }
 
