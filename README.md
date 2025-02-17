@@ -1,3 +1,19 @@
+# Práctica 5.1: Creación de un Sistema de Diseño e Implementación en React + Tailwind CSS
+
+1. Definición del Sistema de Diseño
+
+2. Componentes elegidos
+
+3. Implementación de estilos con Tailwind CSS
+
+4. Implementación de componentes con React
+
+5. Enlaces de interés
+
+
+
+# Enlaces de interés
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
