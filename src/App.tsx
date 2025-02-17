@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gray-200 flex flex-col items-center p-4 ">
+    <div className="bg-gray-200 flex flex-col items-center w-full">
       <Header logoSource={logoSource} />
       <h1 className="text-3xl">Biblioteca de componentes</h1>
       <div className="flex justify-center space-x-4 mt-4">

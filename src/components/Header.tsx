@@ -4,7 +4,7 @@ interface HeaderProps {
 }
 function Header({ logoSource }: HeaderProps) {
   return (
-    <div className="flex justify-between items-center p-4 bg-gray-900 text-white">
+    <div className="flex justify-between items-center p-4 bg-gray-900 text-white w-full">
       <img src={logoSource} alt="logo" width="200" />
       <nav className="hidden md:flex space-x-6 ms-4 me-4">
         <a href="#" className="hover:underline">Nosotros</a>
