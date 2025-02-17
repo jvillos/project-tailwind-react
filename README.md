@@ -21,6 +21,18 @@ Para la presentación de este proyecto presentaremos nuestro sistema de diseño 
 5. Enlaces de interés
 
 
+## 1. Definición del [Sistema de Diseño](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=67-43&t=uKXAPWifFQPEpdmR-1)
+
+![Descripción de la imagen](/images/picture.jpg)
+
+## 2. Componentes elegidos
+
+## 3. Implementación de estilos con Tailwind CSS
+
+## 4. Implementación de componentes con React
+
+## 5. Enlaces de interés
+
 
 # Enlaces de interés
 
