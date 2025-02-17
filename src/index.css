@@ -1,5 +1,36 @@
 @import "tailwindcss";
 
-/*@theme {
-    --color-mint-500: oklch(0.72 0.11 178);
-  }*/
+@theme {
+
+  /* Typography */
+  --lineheight-caption: 1rem;
+  --lineheight-parrafo: 1.5rem;
+  --lineheight-h3: 2.625rem;
+  --lineheight-h2: 3rem;
+  --lineheight-h1: 4.5rem;
+  --font-text-size-caption: 0.75rem;
+  --font-text-size-parrafo: 1rem;
+  --font-text-size-h3: 1.625rem;
+  --font-text-size-h2: 2.625rem;
+  --font-text-size-h1: 4.25rem;
+  /* string */
+  --font-parrafos: Poppins;
+  --font-titulos: Oswald;
+
+/* Icons */
+
+  --small: 1.25rem;
+  --medium: 1.875rem;
+  --big: 3.125rem;
+
+/* Colors */
+
+  --color-error: rgb(205 36 36);
+  --color-black: rgb(0 0 0);
+  --color-dark-grey: rgb(197 197 197);
+  --color-grey: rgb(234 234 234);
+  --color-white: rgb(255 255 255);
+  --color-blue-prim: rgb(78 131 178);
+  --color-dark-blue: rgb(35 78 116);
+  --color-light-blue: rgb(162 192 218);
+}

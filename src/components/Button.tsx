@@ -9,7 +9,7 @@ interface ButtonProps {
 
 function Button({ text, variant = "default", onClick }: ButtonProps) {
   const variants: Record<Variant, string> = {
-    default: "bg-blue-500 hover:bg-blue-700",
+    default: "bg-blue-prim hover:bg-dark-blue",
     hover: "bg-gray-500 hover:bg-gray-700",
   };
 
