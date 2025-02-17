@@ -1,5 +1,7 @@
 # Práctica 5.1: Creación de un Sistema de Diseño e Implementación en React + Tailwind CSS
 
+En esta práctica, hemos desarrollado un sistema de diseño basado en los wireframes creados en la [Práctica 4.1.](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=0-1&t=uKXAPWifFQPEpdmR-1) Se ha estructurado y documentado el sistema en Figma y posteriormente implementado en un proyecto de React con TypeScript, utilizando Tailwind CSS para la estilización.
+
 1. Definición del Sistema de Diseño
 
 2. Componentes elegidos
