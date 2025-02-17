@@ -2,6 +2,14 @@
 
 En esta práctica, hemos desarrollado un sistema de diseño basado en los wireframes creados en la [Práctica 4.1.](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=0-1&t=uKXAPWifFQPEpdmR-1) Se ha estructurado y documentado el sistema en Figma y posteriormente implementado en un proyecto de React con TypeScript, utilizando Tailwind CSS para la estilización.
 
+Para la presentación de este proyecto presentaremos nuestro sistema de diseño elegido, haciendo incapié en los componentes que utilizaremos con sus variantes. También mostraremos la implementación de los estilos con Tailwind CSS, la implementación de los distintos componentes con React para terminar con una lista de recursos de interés.
+
+- [Proyecto en Figma](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=67-43&t=uKXAPWifFQPEpdmR-1)
+- [Repositorio de Github](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=67-43&t=uKXAPWifFQPEpdmR-1)
+
+
+## Índice
+
 1. Definición del Sistema de Diseño
 
 2. Componentes elegidos
@@ -12,6 +20,18 @@ En esta práctica, hemos desarrollado un sistema de diseño basado en los wirefr
 
 5. Enlaces de interés
 
+
+## 1. Definición del [Sistema de Diseño](https://www.figma.com/design/wVp8c4drg3ekrAwQ56zL8p/Empresa-dise%C3%B1o?node-id=67-43&t=uKXAPWifFQPEpdmR-1)
+
+![Descripción de la imagen](/images/picture.jpg)
+
+## 2. Componentes elegidos
+
+## 3. Implementación de estilos con Tailwind CSS
+
+## 4. Implementación de componentes con React
+
+## 5. Enlaces de interés
 
 
 # Enlaces de interés
