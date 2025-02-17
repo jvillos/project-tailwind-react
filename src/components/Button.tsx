@@ -1,4 +1,4 @@
-type Variant = "primary" | "secondary" | "danger";
+type Variant = "default" | "hover";
 
 interface ButtonProps {
   text: string;
@@ -6,15 +6,11 @@ interface ButtonProps {
   onClick: (text: string) => void;
 }
 
-// Secondary = bg-gray-500 hover:bg-gray-700
-// Danger = bg-red-500 hover:bg-red-700
-// Primary = bg-blue-500 hover:bg-blue-700
 
-function Button({ text, variant = "primary", onClick }: ButtonProps) {
+function Button({ text, variant = "default", onClick }: ButtonProps) {
   const variants: Record<Variant, string> = {
-    primary: "bg-blue-500 hover:bg-blue-700",
-    secondary: "bg-gray-500 hover:bg-gray-700",
-    danger: "bg-red-500 hover:bg-red-700",
+    default: "bg-blue-500 hover:bg-blue-700",
+    hover: "bg-gray-500 hover:bg-gray-700",
   };
 
   return (
